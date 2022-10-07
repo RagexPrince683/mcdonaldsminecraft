@@ -1,0 +1,22 @@
+DisplayName = 7.62mm M1919A4 Machine Gun
+Type = MachineGun1
+Power = 10
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+Accuracy = 1.0
+HeatCount = 3
+MaxHeatCount = 1500
+SoundPitch = 0.9
+SoundVolume = 10.0
+Sound = 1919a4sherman_snd
+BulletColor        = 255, 189, 255, 116
+Piercing = 1
+
+MaxAmmo = 3000
+SuppliedNum = 1
+Item =  1, hbm:item.plate_copper
+Item =  1, hbm:item.cordite

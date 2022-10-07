@@ -1,0 +1,39 @@
+DisplayName = V12 Engine
+AddDisplayName = ja_JP, V12
+AddDisplayName = en_US, V12 Engine
+ItemID = 28602
+MaxHp = 20
+DamageFactor = 1.0
+HideEntity = false
+;HideEntity = true
+MinRotationPitch = 0
+MaxRotationPitch =  0
+CanRide = false
+;CameraZoom = 4
+;CameraPosition = 1.38, 3.15, 0.98
+
+AddSeat = 0.00,  1.0, 0.00
+
+MobilityYawOnGround = 0.0
+MobilityRoll = 0
+WeightedCenterZ = 0.0
+Gravity = -0.1
+
+
+; M = Military,  A = AAGun(対空砲)
+;Category = M.A
+
+HUD = mbt_hud
+
+;AddFixRotSeat = 1.38, 1.95, -1.51, 1.38, 3.15, 0.98, true,  0, 0
+
+WeightType = Car
+
+;AddRecipe = "ABB",  "BCD",  "DEF",  A, mcheli:RadialEnginePistons, B, hbm:item.piston_selenium, C, hbm:item.pads_rubber, D, hbm:tile.machine_selenium, E, hbm:item.turbine_titanium, F, hbm:tile.block_steel
+
+;wip
+;AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser
+
+;BoundingBox =  0.0, 0.9,  4.0,  4.0, 1.8
+BoundingBox =  0.0, 0.9,  0.0,  3.5, 1.8
+;BoundingBox =  0.0, 0.9, -4.0,  4.0, 1.8

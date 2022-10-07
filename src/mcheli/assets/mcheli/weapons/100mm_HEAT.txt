@@ -1,0 +1,26 @@
+DisplayName = 100mm HEAT 
+Type = MachineGun2
+Power = 76
+ModelBullet = bullet105mm
+Acceleration = 8.0
+Explosion = 2
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 150
+Reload = 150
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+Piercing = 1
+Group = MainGun
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 1.5
+DamageFactor = heli, 1.0
+
+MaxAmmo = 85
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  2, gunpowder

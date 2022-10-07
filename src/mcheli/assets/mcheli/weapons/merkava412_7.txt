@@ -1,0 +1,22 @@
+DisplayName = 12.7mm M2HB Machine Gun
+Type = MachineGun1
+Power = 31
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+;Accuracy = 2.0
+Accuracy = 0.2
+HeatCount = 4
+MaxHeatCount = 1000
+SoundPitch = 1.0
+SoundVolume = 10.0
+Sound = 12_7merk
+Piercing = 1
+
+MaxAmmo = 900
+SuppliedNum = 1
+Item =  1, hbm:item.plate_copper
+Item =  2, hbm:item.cordite

@@ -1,0 +1,14 @@
+DisplayName = 30kt Nuclear Bomb
+Type = Nuke
+Power = 45
+Acceleration = 0.1
+Sight = None
+Sound = bomb_snd
+Delay = 60
+SoundVolume = 8
+Piercing = 10
+Gravity = -0.01
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 1, hbm:item.gadget_core
+;24 =30

@@ -1,0 +1,24 @@
+DisplayName = 14.5mm KPVT Machine Gun Coaxial
+Type = MachineGun2
+Power = 45
+Acceleration = 4.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 50
+SoundPitch = 1.0
+Sound = 14_5mm
+Accuracy = 0.2
+HeatCount = 4
+MaxHeatCount = 1500
+Piercing = 1
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 1.0
+DamageFactor = heli, 1.0
+
+MaxAmmo = 200
+SuppliedNum = 1
+Item =  2, gunpowder
+Item =  2, hfr:item.ingot_steel

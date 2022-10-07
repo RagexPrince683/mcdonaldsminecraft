@@ -1,0 +1,19 @@
+DisplayName = 7.62mm Type 86 Machine Gun
+Type = MachineGun1
+Power = 10
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+Accuracy = 0.2
+HeatCount = 2
+MaxHeatCount = 150
+SoundPitch = 1.0
+Sound = ztz96762_snd
+Piercing = 1
+
+MaxAmmo = 2500
+SuppliedNum = 1
+Item =  1, hbm:item.plate_copper
+Item =  1, hbm:item.cordite

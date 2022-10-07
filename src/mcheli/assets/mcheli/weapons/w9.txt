@@ -1,0 +1,27 @@
+DisplayName = W9 Nuclear Warhead
+Type = Nuke
+ModelBullet = w9
+Power = 12
+Acceleration = 6.0
+;Explosion = 50
+;Flaming = true
+Sight = MoveSight
+Delay = 360
+Round = 1
+SoundVolume = 6.0
+Sound = cannon_3_snd
+Gravity = -0.0001
+RecoilBufCount = 70, 3
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.3
+TrajectoryParticle = crit
+
+AddMuzzleFlash      = 11.57,      2.25,       10,  150,254,219,154
+AddMuzzleFlash      = 11.67,      4.25,       10,  150,254,219,184
+AddMuzzleFlashSmoke = 12.77,  52, 14.0,  5.0, 75,  160,160,140,120
+AddMuzzleFlashSmoke = 11.77,  40, 13.0, 11.0, 45,  160,190,170,150
+
+MaxAmmo = 80
+SuppliedNum = 1
+Item = 1, bedrock

@@ -1,0 +1,21 @@
+DisplayName = 12.7mm QJC88 HMG
+Type = MachineGun2
+Power = 29
+Acceleration = 4.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 10.0
+SoundPitch = 1.0
+Sound = 12_7merk
+Accuracy = 0.2
+HeatCount = 5
+MaxHeatCount = 1500
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+Piercing = 1
+
+
+MaxAmmo = 500
+SuppliedNum = 1
+Item =  1, hbm:item.plate_copper
+Item =  2, hbm:item.cordite

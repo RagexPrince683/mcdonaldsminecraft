@@ -1,0 +1,85 @@
+DisplayName = Panzer II Ausf. L (WIP WIP WIP)
+AddDisplayName = ja_JP, Panzer II Ausf. L (WIP WIP WIP)
+AddDisplayName = en_US, Panzer II Ausf. L (WIP WIP WIP)
+ItemID = 30076
+MaxHp = 15
+Speed = 0.8
+Sound = Maybach6cyl
+MinRotationPitch = -20
+MaxRotationPitch = 10
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+FlareType = 10
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraRotationSpeed = 25
+DefaultFreelook = true
+CameraPosition = 0.00, 1.74, 1.06, true
+EnableBack = true
+
+ArmorMinDamage = 5
+;ArmorMaxDamage = 380 
+
+
+HideEntity = true
+
+MobilityYawOnGround = 3.0
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 2
+
+OnGroundPitchFactor = 4.0
+OnGroundRollFactor  = 4.8
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.25,  -0.24,  1.76, -1.81, -2.82
+
+StepHeight = 1.5
+
+HUD = ww2tank_hud
+
+;AddTexture = Pz2_Gup kill yourself
+
+AddGunnerSeat = 0.00,  1.45, 0.00,   0.00, 1.74, 1.06, false, -90, 90, true
+
+MotionFactor = 0.9
+
+AddTrackRoller = -1.0354,  0.3931,  2.1667
+AddTrackRoller = -1.1435,  0.0976,  1.4812
+AddTrackRoller = -1.0151,  0.0976,  0.8439
+AddTrackRoller = -1.1435,  0.0976,  0.1917
+AddTrackRoller = -1.0151,  0.0976, -0.4339
+AddTrackRoller = -1.1435,  0.0976, -1.0643
+AddTrackRoller = -1.0439,  0.2724, -1.7322
+
+AddTrackRoller =  1.0354,  0.3931,  2.1667
+AddTrackRoller =  1.1435,  0.0976,  1.4812
+AddTrackRoller =  1.0151,  0.0976,  0.8439
+AddTrackRoller =  1.1435,  0.0976,  0.1917
+AddTrackRoller =  1.0151,  0.0976, -0.4339
+AddTrackRoller =  1.1435,  0.0976, -1.0643
+AddTrackRoller =  1.0439,  0.2724, -1.7322
+
+
+AddTurretWeapon = ww2tank_50mm,   0.00, 1.74, 1.06,   0.0, 0.0, true, 2,0,-360,360, -20,10
+AddPartWeapon    = ww2tank_50mm,       true, true, false,  0.00,  0.00, -0.00
+AddPartWeaponChild= false, true, 0.00, 1.74, 1.06
+
+AddTurretWeapon = smoke_white,  -0.59, 1.24, -5.85, 0, 0
+AddCrawlerTrack = false, 0.17, 1.3384, 1.0683/3.2292, 0.9342/3.5387, 0.6247/3.6628, 0.3152/3.6287, -0.23/2.6798, -0.23/-1.7099, -0.0264/-2.3712, 0.0877/-2.6707, 0.3871/-2.7847, 0.6966/-2.6707, 0.8206/-2.3712, 0.7566/-1.7099, 0.8242/1.9800
+AddCrawlerTrack = false, 0.17,-1.3384, 1.0683/3.2292, 0.9342/3.5387, 0.6247/3.6628, 0.3152/3.6287, -0.23/2.6798, -0.23/-1.7099, -0.0264/-2.3712, 0.0877/-2.6707, 0.3871/-2.7847, 0.6966/-2.6707, 0.8206/-2.3712, 0.7566/-1.7099, 0.8242/1.9800
+
+
+;front top hull 30mm
+BoundingBox = 0.0, 1.23, 0.5, 2.2, 0.5, 0.16

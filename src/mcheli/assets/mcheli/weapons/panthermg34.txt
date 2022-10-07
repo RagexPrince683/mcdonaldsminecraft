@@ -1,0 +1,22 @@
+DisplayName = 7.92mm MG34
+Type = MachineGun1
+Power = 13
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+ReloadTime = 80
+Round = 50
+SoundVolume = 10
+HeatCount = 3
+MaxHeatCount = 90
+Sound = fuckinggayassbullshitbroken
+Accuracy = 1.0
+
+MaxAmmo = 4700
+SuppliedNum = 1
+Item =  2, hbm:item.plate_copper
+Item =  1, hbm:item.cordite
+
+

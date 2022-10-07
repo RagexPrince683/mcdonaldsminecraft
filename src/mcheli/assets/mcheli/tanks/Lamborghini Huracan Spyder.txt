@@ -1,0 +1,100 @@
+DisplayName = Lamborghini Huracán Spyder
+AddDisplayName = ja_JP, Lamborghini Huracán Spyder
+AddDisplayName = en_US, Lamborghini Huracán Spyder
+ItemID = 31402
+MaxHp = 150
+;Speed = 1.79
+Speed = 4.38
+Sound = Lamborghini_H
+MobilityYawOnGround = 10.0
+ThrottleUpDown = 10.0
+MinRotationPitch = -90
+MaxRotationPitch =  90
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 1.0
+ThirdPersonDist = 5
+
+AddTexture = Lamborghini Huracan S negro
+AddTexture = Lamborghini Huracan S rojo
+AddTexture = Lamborghini Huracan S naranja
+AddTexture = Lamborghini Huracan S verde
+AddTexture = Lamborghini Huracan S azul
+AddTexture = Lamborghini Huracan S Celeste
+
+HUD = Lamborghini Huracan_HUD, none
+
+AddSeat =   0.5801,  -0.09,  0
+AddSeat =  -0.5801,   0.03,  0 
+
+SetWheelPos =  0.88,  -0.24,  1.82, -1.93
+
+PartWheelRot = 60
+
+AddPartWheel     = -1.2195,  0.1505,  1.8536,   30
+AddPartWheel     =  1.2195,  0.1505,  1.8536,   30
+AddPartWheel     = -0.9313,  0.1741, -1.9292
+AddPartWheel     =  0.9313,  0.1741, -1.9292
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+AddPartSteeringWheel =   1.2195, 0.1505, 1.8536,  0.0, 1.0, 0.0,   30
+AddPartSteeringWheel =  -1.2195, 0.1505, 1.8536,  0.0, 1.0, 0.0,   30
+
+AddPartSteeringWheel =   0.56,  0.685,  0.6184,  0.0, 1, -2.74747419,   130
+
+AddPartCanopy   =  1.275, 0.6165, 1.346,  0, 1, 0, -60
+AddPartCanopy   =  1.275, 0.6165, 1.346,  0, 1, 0, -60
+AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
+AddPartCanopy   =  1.275, 0.6165, 1.346,  0, 1, 0, -60
+
+AddPartThrottle =  0.56, 0.7523, 0.9519,  0, 1, -5.67128182, -230
+
+;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
+;ヘッドライト                           
+AddFixedSearchLight =  0.86, 0.50, 2.60,   0x20FFFFFF,   0x00FFFFC0,    30.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.86, 0.50, 2.60,   0x20FFFFFF,   0x00FFFFC0,    30.0, 15.0,   5,  0
+
+MaxFuel         = 600
+FuelConsumption = 0.5
+
+;AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
+;AddWeapon = L_H_StartUp,    0.00, 0.00, 0.00,  0.0,0.0
+;AddWeapon = L_H_EngineSound,    0.00, 0.00, 0.00,  0.0,0.0
+AddWeapon = none, 0.00, 0.00, 0.00,  0.0,0.0
+AddWeapon = horn, 0.00, 0.00, 0.00,  0.0,0.0
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+StepHeight = 1.5
+
+;BoundingBox =  0.0, 0.30,  1.8,  2.2, 0.9,  0.9
+;BoundingBox =  0.0, 0.57, -1.8,  2.2, 1.0,  1.1
+;BoundingBox =  0.0, 0.70, -0.4,  1.9, 1.3
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+BoundingBox =  0.0, 0.50,  1.85,   1.7, 0.6
+BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -1.6, 2.7, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+;RIP AddRecipe = "BBB",  "CDC", "CEC",  B, glass_pane, C, hfr:item.part_wheel, D, hfr:item.part_plate, E, hfr:item.part_engine_1
+
+UnmountPosition = 0.5801,  1.50,  0
+
+InventorySize = 9

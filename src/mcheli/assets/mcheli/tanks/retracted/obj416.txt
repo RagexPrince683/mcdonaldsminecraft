@@ -1,0 +1,94 @@
+DisplayName = Object 416
+AddDisplayName = ja_JP, object 416
+AddDisplayName = en_US, Prototype Vehicle Testbed (Object 416)
+ItemID = 29126
+MaxHp = 75
+Speed = 0.7
+Sound = mbtrun
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.06
+GravityInWater = 0.1
+DamageFactor = 0.0
+EnableNightVision = true
+; 重心Z座標設定
+CameraRotationSpeed = 25
+DefaultFreelook = true
+
+HideEntity = true
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 2
+
+OnGroundPitchFactor = 4.0
+OnGroundRollFactor  = 4.8
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.28,  -0.24,  4.07, 1.30, -1.30
+
+AddSeat =  0.00,  1.53, -0.40
+
+AddTrackRoller = 1.50,  0.25,  -2.18
+AddTrackRoller = 1.50,  0.06,  -1.30
+AddTrackRoller = 1.50,  0.06,  -0.27
+AddTrackRoller = 1.50,  0.06,  0.75
+AddTrackRoller = 1.50,  0.06,  1.80
+AddTrackRoller = 1.50,  0.06,  2.78
+AddTrackRoller = 1.50,  0.06,  3.67
+AddTrackRoller = 1.50,  0.38,  4.64
+
+AddTrackRoller =  -1.50,  0.25,  -2.18
+AddTrackRoller =  -1.50,  0.06,  -1.30
+AddTrackRoller =  -1.50,  0.06,  -0.27
+AddTrackRoller =  -1.50,  0.06,  0.75
+AddTrackRoller =  -1.50,  0.06,  1.80
+AddTrackRoller =  -1.50,  0.06,  2.78
+AddTrackRoller =  -1.50,  0.06,  3.67
+AddTrackRoller =  -1.50,  0.38,  4.64
+
+AddWeapon = 100mm_HEAT,  0.00, 1.21, -0.40,  0.0, 0.0, true,1, 0,-75,75, -30, 3
+;AddWeapon = mbt_machinegun_1, -0.39, 1.21, -0.40,  0.0, 0.0, true,1, 0,-360,360, -30, 3
+AddPartWeapon = 100mm_HEAT, false, true, false,  0.00, 1.53, -0.40, 0
+AddPartWeaponChild = false, true, 0.00, 0.98, 1.15
+
+;AddWeapon = mbt_machinegun_2,  0.80, 2.18, 0.44,  0.0, 0.0, true,1, 0,-360,360, -70, 5
+;AddPartWeapon = mbt_machinegun_2, false, true, false,  0.00, 1.53, -0.40, 0
+;AddPartWeaponChild = false, true, 0.77, 2.09, -0.96,
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+;ArmorMinDamage = 75
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 1200
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+;ArmorDamageFactor = 1.00
+
+AddTexture = obj416
+AddTexture = obj416_2
+AddTexture = obj416_3
+AddTexture = obj416_4
+AddTexture = obj416_5
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.0, 0.5, -1.2,  3.0, 1.0
+BoundingBox =  0.0, 1.3, -0.5,  3.0, 0.5
+BoundingBox =  0.0, 0.5,  1.5,  3.0, 1.0
+BoundingBox =  0.0, 0.5,  3.5,  3.0, 1.0
+
+StepHeight = 1.5

@@ -1,0 +1,26 @@
+DisplayName = 120mm IMI MG253 Smoothbore Cannon[APFSDS]
+Type = MachineGun1
+Power = 960
+Delay = 165
+Explosion = 1
+ExplosionBlock = 1
+Acceleration = 4.0
+Sight = None
+ReloadTime = 165
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_1_snd
+Accuracy = 0.0
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Group = MainGun
+Piercing = 1
+DamageFactor = tank, 3.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 3.0
+DamageFactor = heli, 3.0
+
+MaxAmmo = 12
+SuppliedNum = 1
+Item =  2, hbm:item.ingot_dura_steel
+Item =  2, hbm:item.ingot_semtex

@@ -1,0 +1,104 @@
+﻿DisplayName = German bias
+AddDisplayName = en_US, German bias
+MaxHp = 20
+Speed = 0.32
+Sound = V12TIGER
+ThrottleUpDown = 3.0
+MobilityYawOnGround = 1.3
+MinRotationPitch = -60
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 1.0
+CameraZoom = 4
+CameraPosition = 0.65, 2.3, -0.30
+HideEntity = true
+EnableNightVision = false
+CameraRotationSpeed = 10
+MaxFuel         = 3800
+FuelConsumption = 2.0
+StepHeight = 2.0
+DefaultFreelook = true
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+ThirdPersonDist = 12
+
+;AddTexture = stigerdesert
+;AddTexture = stigerwinter
+
+SubmergedDamageHeight = 2
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+AddSeat = 0.0, 2.1, 0.0
+;AddGunnerSeat = 0.854, 1.1, 2.139
+;AddGunnerSeat = -0.854, 1.1, 2.139
+
+;ArmorMinDamage = 20
+
+MotionFactor = 0.9
+
+EnableBack = true
+EnableBack = true
+
+Category = M.A
+
+HUD = ww2tank_hud
+
+TrackRollerRot = 32
+SetWheelPos =  1.50, -0.24, 2.9, 2.2, 1.1, 1.65, 0.55, 0.0, -0.55, -1.1, -1.65, -2.4
+
+AddTrackRoller =  1.50, 0.21, 2.2
+AddTrackRoller =  1.50, 0.21, 1.65
+AddTrackRoller =  1.50, 0.21, 1.1
+AddTrackRoller =  1.50, 0.21, 0.55
+AddTrackRoller =  1.50, 0.21, 0.0
+AddTrackRoller =  1.50, 0.21, -0.55
+AddTrackRoller =  1.50, 0.21, -1.1
+AddTrackRoller =  1.50, 0.21, -1.65
+
+AddTrackRoller =  -1.50, 0.21, 2.2
+AddTrackRoller =  -1.50, 0.21, 1.65
+AddTrackRoller =  -1.50, 0.21, 1.1
+AddTrackRoller =  -1.50, 0.21, 0.55
+AddTrackRoller =  -1.50, 0.21, 0.0
+AddTrackRoller =  -1.50, 0.21, -0.55
+AddTrackRoller =  -1.50, 0.21, -1.1
+AddTrackRoller =  -1.50, 0.21, -1.65
+
+AddTrackRoller =  1.50, 0.42, 2.9
+
+AddTrackRoller =  -1.50, 0.42, 2.9
+
+AddTrackRoller =  1.50, 0.3175, -2.4
+
+AddTrackRoller =  -1.50, 0.3175, -2.4
+
+
+WeightedCenterZ = 0.0
+
+AddCrawlerTrack = true, 0.1771,  1.5, -0.0075/-2.40, 0.32/-2.73, 0.50/-2.681, 0.634/-2.50, 0.6567/-2.35, 0.65/2.20, 0.8625/2.914, 0.73/3.21, 0.4225/3.34, 0.0583/3.1473, -0.23/2.20, -0.23/-1.65
+
+
+AddCrawlerTrack = true, 0.1771,  -1.5, -0.0075/-2.40, 0.32/-2.73, 0.50/-2.681, 0.634/-2.50, 0.6567/-2.35, 0.65/2.20, 0.8625/2.914, 0.73/3.21, 0.4225/3.34, 0.0583/3.1473, -0.23/2.20, -0.23/-1.65
+
+
+
+AddPartWeapon = nuke_test / testgun, false, true, false, 0.00, 2.60, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 1.97, 1.25, 0
+AddPartWeaponChild = false, true, 0.00, 1.97, 1.25, 1
+AddTurretWeapon = nuke_test, 0.00, 1.97, 1.25, 0.0, 0.0, true, 1, 0,-360,360, -35, 15, 1
+AddTurretWeapon = testgun, 0.00, 1.97, 1.25, 0.0, 0.0, true, 1, 0,-360,360, -35, 15, 1
+TurretPosition = 0.00, 2.60, 0.00
+
+;AddPartWeapon = 7.91mm, false, true, true, -0.59, 1.3221, 2.5897, 0
+;AddPartWeaponChild = false, false, -0.59, 1.3221, 2.5897, 0.1
+;AddWeapon = 7.91mm, -0.59, 1.4721, 2.5897, 0.0, 0.0, true, 3, 0,-45,45, -30, 20, 0.2
+
+;BoundingBox =  0.0, 0.775, 0.695,   3.5, 1.5,   0.9
+;BoundingBox =  0.0, 0.775, -1.18,   3.49, 1.49,   1.1
+;BoundingBox =  0.0, 2.03, -0.10,   2.377, 1.01,   1.0
+;BoundingBox =  0.0, 1.925, 0.587,   1.807, 0.712,   0.7
+;BoundingBox =  0.0, 0.90, 1.56,   3.16, 1.12,   0.7

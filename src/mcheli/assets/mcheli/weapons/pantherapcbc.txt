@@ -1,0 +1,28 @@
+DisplayName = 75mm KwK42 Cannon [APCBC]
+Type = MachineGun2
+Power = 192
+ModelBullet = bullet76mm
+Acceleration = 4.0
+Explosion = 3
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+ModeNum = 1
+SoundVolume = 10
+Sound = cannon_1_snd
+Recoil = 1.0
+group = maingun
+
+Delay = 1
+ReloadTime = 80
+Round = 1
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  2, hbm:item.ingot_dura_steel
+Item =  2, hbm:item.ingot_semtex
+
+AddMuzzleFlash = 8.2, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 8.4, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5

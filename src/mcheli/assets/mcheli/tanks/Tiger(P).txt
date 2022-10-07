@@ -1,0 +1,123 @@
+DisplayName = VK 45.01 (P) prototype not adding
+;nasty prototype vehicle gtfo my line of sight sorry kid
+AddDisplayName = en_US, VK 45.01 (P)
+AddDisplayName = ja_JP, VK 45.01 (P)
+ItemID = 90129
+MaxHp = 51
+Speed = 0.3
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.1
+;-0.5
+DamageFactor = 0.0
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = LighterDieselEngine
+HUD = ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+
+AddTexture = Tiger(P)1
+
+TurretPosition = 0.0, 0.0, 0.0
+
+EnableBack = true
+;SetWheelPos =  1.6,  -0.24,  3.0, 1.5, 0.0, -2.0, -3.5, -5.0
+SetWheelPos =  1.14, -0.24, 2.81, 1.35, 0.0, -1.74
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.5
+
+MobilityYawOnGround = 2.0
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.85, 2.6, -0.534,   0.85,   2.6,  -0.534,   true,  -25, 25, true
+AddGunnerSeat = -0.5,  1.0,  0.5,    -0.7878, 1.8,   2.5,     false, -25, 25, false
+CameraPosition = 0.85, 3.6, -0.534, false
+CameraRotationSpeed = 5
+
+StepHeight = 1.0
+;InventorySize = 18
+ParticlesScale = 50.0
+SmoothShading = true
+HideEntity = true
+
+ArmorMinDamage = 25
+
+MotionFactor = 0.94
+
+MaxFuel         = 1500
+FuelConsumption = 4.0
+
+TrackRollerRot = 30
+
+AddTrackRoller =  -1.50,  0.7478,  2.8142
+AddTrackRoller =  -1.50,  0.1692,  1.6886
+AddTrackRoller =  -1.50,  0.1692,  0.6886
+AddTrackRoller =  -1.50,  0.1692, -0.4614
+AddTrackRoller =  -1.50,  0.1692, -1.4614
+AddTrackRoller =  -1.50,  0.1692, -2.6114
+AddTrackRoller =  -1.50,  0.1692, -3.6114
+AddTrackRoller =  -1.50,  0.6058, -4.552
+
+AddTrackRoller =  1.50,  0.7478,  2.8142
+AddTrackRoller =  1.50,  0.1692,  1.6886
+AddTrackRoller =  1.50,  0.1692,  0.6886
+AddTrackRoller =  1.50,  0.1692, -0.4614
+AddTrackRoller =  1.50,  0.1692, -1.4614
+AddTrackRoller =  1.50,  0.1692, -2.6114
+AddTrackRoller =  1.50,  0.1692, -3.6114
+AddTrackRoller =  1.50,  0.6058, -4.552
+
+AddCrawlerTrack = true, 0.21, -2.10,   1.13/ 2.81, 1.02/ 3.09, 0.75/ 3.20, 0.47/ 3.09, -0.16/ 2.02, -0.30/ 1.69, -0.30/ -3.61, -0.16/ -3.94, 0.33/ -4.9, 0.60/ -4.94, 0.88/ -4.82, 0.99/ -4.55, 0.88/ -4.28, 0.64/ -3.61, 0.64/ 1.69, 1.02/ 2.50
+AddCrawlerTrack = true, 0.21, -2.10,   1.13/ 2.81, 1.02/ 3.09, 0.75/ 3.20, 0.47/ 3.09, -0.16/ 2.02, -0.30/ 1.69, -0.30/ -3.61, -0.16/ -3.94, 0.33/ -4.9, 0.60/ -4.94, 0.88/ -4.82, 0.99/ -4.55, 0.88/ -4.28, 0.64/ -3.61, 0.64/ 1.69, 1.02/ 2.50
+
+MinRotationPitch = -8
+MaxRotationPitch = 16
+
+AddPartWeapon  = TigerH1_APCBC / TigerH1_HE, false, true,  false,  0.0, 1.5, 0.0, 0
+AddPartWeaponChild = false, true,   0.0, 2.3479, 2.348
+AddPartWeaponChild = false, true,   0.0, 2.3479, 2.348, 0.5
+AddTurretWeapon      = TigerH1_APCBC,  0.0, 2.3479, 1.8811,  0.0, 0.0, true,1, 0,-360,360, -8, 16
+AddTurretWeapon      = TigerpH1_HE,  0.0, 2.3479, 1.8811,  0.0, 0.0, true,1, 0,-360,360, -8, 16
+AddTurretWeapon      = TigerH1MG34Coax,  -0.62, 2.3479, 3.0,  0.0, 0.0, true,1, 0,-360,360, -8, 16
+
+AddWeapon = TigerH1MG34,  -0.7878, 1.548, 2.348,  0.0, 0.0, false,2, 0,-40,40, -10, 10
+AddPartWeapon  = TigerH1MG34, false, true,  true,  -0.7878, 1.548, 2.348, 0
+
+;BoundingBox = 0.0, 1.0,  1.0, 3.8, 1.6, 0.5
+;BoundingBox = 0.0, 1.0, -2.8, 3.8, 1.6, 0.8
+;BoundingBox = 0.0, 2.5,  0.0, 2.5, 1.2, 0.5
+;BoundingBox = 0.0, 1.9, -2.8, 2.0, 0.1, 3.0
+
+;BoundingBox = 0.0, 1.0, 0.0, 1.0, 1.0
+
+;82mm
+BoundingBox = 0.0, 1.3, -0.5, 3.6, 0.9, 0.30
+BoundingBox = 0.0, 1.3, -2.0, 3.6, 0.9, 0.30
+
+;62mm
+BoundingBox = 0.0, 0.5, -0.5, 3.6, 0.9, 0.40
+;30mm weakspot gunport
+BoundingBox = -0.7952, 1.554, 2.337, 0.2, 0.2, 0.83
+
+;102mm front
+BoundingBox = 0.0, 1.3, 1.8, 1.0, 1.0, 0.24
+BoundingBox = 1.0, 1.3, 1.8, 1.0, 1.0, 0.24
+BoundingBox = -1.0, 1.3, 1.8, 1.0, 1.0, 0.24
+BoundingBox = 1.29, 1.3, 1.5, 1.0, 1.0, 0.24
+BoundingBox = -1.29, 1.3, 1.5, 1.0, 1.0, 0.24
+;102mm front lower
+BoundingBox = 0.0, 0.8, 2.5, 1.0, 1.0, 0.24
+BoundingBox = 1.0, 0.8, 2.5, 1.0, 1.0, 0.24
+BoundingBox = -1.0, 0.8, 2.5, 1.0, 1.0, 0.24
+;turret
+BoundingBox = 0.0, 2.3, 0.0, 3.0, 1.0, 0.25
+;rear 25 top 82 bottom
+BoundingBox = 0.0, 1.5, -3.1, 3.0, 0.6, 1.0
+BoundingBox = 0.0, 0.8, -3.3, 3.0, 1.0, 0.30
+
+;AddRecipe = " B ",  "CDE", " F ",  B, glass_pane, C, hfr:item.part_engine_2, D, hfr:item.part_chassis_3, E, hfr:item.part_cannon_3, F, hfr:item.part_treads

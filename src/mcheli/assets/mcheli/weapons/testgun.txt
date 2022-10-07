@@ -1,0 +1,18 @@
+DisplayName = test
+Type = MachineGun2
+Power = 83
+Acceleration = 0.099
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 10.0
+SoundPitch = 1.0
+Sound = 12_7merk
+Accuracy = 0.0
+;HeatCount = 5
+;MaxHeatCount = 1500
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+DamageFactor = tank, 2.0
+
+MaxAmmo = 500
+SuppliedNum = 500
